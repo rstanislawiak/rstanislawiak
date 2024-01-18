@@ -265,28 +265,6 @@ header h2 {
     /* This will make the link color similar to the surrounding text */
 }
 
-.portfolio-item:hover {
-    text-decoration: underline;
-}
-
-.portfolio-item img {
-    width: 100%;
-    /* Makes the image responsive */
-    max-width: 800px;
-    /* Sets a maximum width */
-    height: auto;
-    /* Keeps the aspect ratio */
-}
-
-.portfolio-item-text {
-    position: bottom;
-    bottom: 16px;
-    left: 16px;
-    color: rgb(0, 0, 0);
-    padding: 0px;
-}
-
-
 /* Main Content Styles */
 main {
     display: flex;
@@ -564,49 +542,6 @@ footer {
     height: 100%;
 }
 
-
-
-/* 
-.cookie-banner {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: #f4f4f4;
-    padding: 15px;
-    text-align: center;
-
-
-    z-index: 1000;
-    font-size: 14px; 
-}
-
-#cookie-banner .cookie-text .spacer {
-    display: inline-block;
-    margin-right: 10px; 
-}
-
-
-
-
-#cookie-banner button {
-    background: none;
-    border: none;
-    color: red; 
-    cursor: pointer;
-    padding: 5px; 
-    margin: -5px;
-    text-decoration: none; 
-    font-size: inherit;
-}
-
-#cookie-banner button:hover {
-    text-decoration: underline; 
-}
-
-*/
-
-
 /* DECORATIONS */
 
 
@@ -722,36 +657,3 @@ footer {
         background: radial-gradient(circle, rgb(31, 233, 255), rgb(98, 0, 255));
     }
 }
-
-
-
-/* 
-.header-left, .header-right,.header-left-right-wrapper,.header-container,.header-back, #about, #contact {
-    border: 1px solid red; 
-    background-color: rgba(0, 0, 0, 0.1); 
-}  */
-
-
-
-/* 
-.header-left, .header-right,.header-left-right-wrapper,.header-container,.header-back, #about, #contact {
-    border: 1px solid red; 
-    background-color: rgba(0, 0, 0, 0.1); 
-} 
-/* .header-left, .header-right {
-    flex-shrink: 0; 
-    flex-grow: 0;   */
-/* }
-#about, #contact {
-    flex-shrink: 0; 
-    flex-grow: 0;   
-}
-.header-left, .header-right, #about, #contact {
-    margin: 0;
-    padding: 0;
-}
-.header-left, .header-right, #about, #contact {
-    min-width: 0; 
- }
-
- 
