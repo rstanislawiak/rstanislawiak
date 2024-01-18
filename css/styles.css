@@ -43,7 +43,7 @@ img {
     border-bottom: 0px solid black;
     padding: 100;
     /* margin-bottom: 10px; */
-    white-space: nowrap;
+    white-space: wrap;
 
 }
 
