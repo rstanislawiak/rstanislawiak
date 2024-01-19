@@ -39,11 +39,10 @@ img {
     left: 0;
     width: 100%;
     background-color: white;
-    z-index: 1000;
+    z-index: 100;
     border-bottom: 0px solid black;
-    padding: 80px;
+    padding: 100px;
     white-space: nowrap;
-    margin-bottom: 20px;
 
 }
 
