@@ -33,7 +33,7 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    position: fixed;
+    position: flex;
     /* Make header fixed when scrolling */
     top: 0;
     left: 0;
@@ -41,14 +41,16 @@ img {
     background-color: white;
     z-index: 1000;
     border-bottom: 0px solid black;
-    padding: 100;
-    /* margin-bottom: 10px; */
-    white-space: wrap;
+    padding: 0px;
+    white-space: nowrap;
+    margin-top: 60px;
+    margin-left: 100px;
+    margin-bottom: 60px;
 
 }
 
 .header-top {
-    display: flex;
+    display: fixed;
     justify-content: space-between;
     align-items: flex-start;
     position: fixed;
@@ -68,7 +70,7 @@ img {
 .header-left-right-wrapper {
     display: flex;
     justify-content: space-between;
-    align-items: start;
+    align-items: center;
     width: 73%;
     text-decoration: none;
     color: black;
