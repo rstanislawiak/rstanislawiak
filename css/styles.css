@@ -257,7 +257,9 @@ header h2 {
     padding: 0;
     margin: 0;
     position: relative;
-    max-width: 800px;
+    overflow: hidden;
+    width: "320" 
+    height: "240"
     /* Set a maximum width */
     text-decoration: none;
     color: inherit;
