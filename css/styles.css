@@ -257,8 +257,7 @@ header h2 {
     padding: 0;
     margin: 0;
     position: relative;
-    max-height: 641px;
-    max-width: 855px;
+    max-width: 800px;
     /* Set a maximum width */
     text-decoration: none;
     color: inherit;
